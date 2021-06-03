@@ -1,0 +1,42 @@
+@media (max-width: 740px){
+    #how-it-work{
+   
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    #feature .grid .icon{
+        height: 63px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer{
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #ddd; 
+        margin-left: -100px;
+        margin-right: 0px;
+    }
+    #pricing{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #pricing .ticket-price{
+        width: 100%;
+    }
+    .icon{
+        font-size: 40px;
+        margin-right: 10px;
+    }
+    #feature .grid{
+        margin: 25px 0px 0px;
+        
+        
+    }
+}    

@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    font-size: 24px;
+    color: #000;
+}
+p{
+    font-size: 16px;
+}
+li{
+    list-style: none;
+}
+.icon{
+    font-size: 50px;
+    color: darkorange;
+}
+.container{
+    background-color: #eee;
+}
+#header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 75px;
+    height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    flex-wrap: wrap;
+}
+#header .logo{
+    width: 60vw;
+}
+.logo >img{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+nav>ul{
+    width: 357px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main{
+    margin-top: 75px;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;   
+}
+#main .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#main .form h3{
+    font-size: 24px;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.form-control{
+   
+}
+.form-control .box-text{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.form-control .btn{
+    max-width: 150px;
+    width: 100%;
+    padding: 20px; 
+    background-color: #f1c40f;
+    border: 0;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.form-control .btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#feature{
+    margin: 0 32px;
+    
+}
+#feature .grid{
+    display: flex;
+    
+    
+}
+#feature .grid .icon{
+    height: 125px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feature .grid .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    
+}
+#how-it-work{
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#how-it-work>iframe{
+    max-width: 560px;
+    width: 100%;
+}
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#pricing .ticket-price{
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 33.333333%;
+    border-radius: 3px;
+}
+#pricing .ticket-price .header-ticket{
+    background-color: #ddd;
+    padding: 15px 0px;
+    width: 100%;
+}
+#pricing .ticket-price .desc-ticket{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.price{
+    margin-bottom: 15px;
+}
+.desc-ticket>p{
+    margin: 10px 0px;
+}
+.ticket-price>button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.btn2{
+    padding: 0px 20px;
+    height: 40px;
+    border: 0;
+    background-color: #f1c40f;
+    font-weight: 450;
+    font-size: 16px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+#footer{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ddd; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#footer ul{
+    display: flex;
+    justify-content: flex-end;
+      
+
+}
+#footer ul li{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+#footer p{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;    
+    font-size: 14.4px;
+    color: #444;
+}
+
